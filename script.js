@@ -5,10 +5,10 @@ myHeading.textContent = "My First Project";
 const myImage = document.querySelector("img");
 myImage.addEventListener("click", () => {
     const mySrc = myImage.getAttribute("src");
-    if (mySrc === "images\\sunrisers hyderabad.png") {
-        myImage.setAttribute("src", "images\\srh jersey.jpg");
+    if (mySrc === "image\\sunrisers hyderabad.png") {
+        myImage.setAttribute("src", "image\\srh jersey.jpg");
     } else {
-        myImage.setAttribute("src", "images\\sunrisers hyderabad.png");
+        myImage.setAttribute("src", "image\\sunrisers hyderabad.png");
     }
 });
 
